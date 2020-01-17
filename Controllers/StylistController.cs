@@ -37,6 +37,8 @@ namespace BestStylists.Controllers
     public ActionResult Details(int id)
     {
       Stylist thisStylist = _db.Stylists.FirstOrDefault(stylist => stylist.StylistId == id);
+      List <Client> ClientList = _db.Clients.Where(clients => clients.StylistId == id).ToList();
+      ViewBag.ClientList = ClientList;
       return View(thisStylist);
     }
 

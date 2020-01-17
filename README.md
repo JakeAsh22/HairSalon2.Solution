@@ -26,6 +26,10 @@ https://github.com/JakeAsh22/HairSalon
 
 2. Build the database:
 ```
+> CREATE DATABASE jake_ash;
+> USE jake_ash;
+> CREATE TABLE clients (ClientId PRIMARY KEY, Description VARCHAR(255),StylistId INT(11));
+> CREATE TABLE stylists (StylistId PRIMARY KEY, Name VARCHAR(255), ClientId INT(11));
 ```
 
 3. Go into the repo and run this application: 

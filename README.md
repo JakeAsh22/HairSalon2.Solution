@@ -12,7 +12,7 @@ Create a MVC application with a database to allow users to input names of stylis
 ## Unit Testing
 | User input | Expected output |
 | :------------- | :------------- |
-| Stylist: Hannah.  Clients: Steve, Bob, Claire | Hannah - Steve, Bob Claire |
+| Stylist: Hannah.  Clients: Steve, Bob, Claire | Hannah - Steve, Bob, Claire |
 | Stylists: Hannah, Claire, Matt, Wei | Hannah - Claire - Matt - Wei  |
 | Add new Stylist: Will | Stylists: Hannah - Claire - Matt - Wei - Will |
 | Client: Jake - adding to stylist Will | Will - Jake |
